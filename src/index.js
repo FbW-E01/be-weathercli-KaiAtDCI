@@ -10,7 +10,6 @@ if (!city) {
   process.exit(1);
 }
 
-
 async function fetchWeatherData() {
   const url = process.env.API_ENDPOINT + `?q=${city}&units=${UNITS}&appid=${process.env.API_KEY}`;
   const response = await axios.get(url);
