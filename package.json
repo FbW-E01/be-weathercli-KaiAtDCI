@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0"
+  },
+  "name": "be-weathercli-KaiAtDCI",
+  "description": "Create a Weather CLI. The program should have an API call for [`OpenWeather`](https://openweathermap.org/guide), and it should accept any given city as an argument when it is called (see example below).",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FbW-E01/be-weathercli-KaiAtDCI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FbW-E01/be-weathercli-KaiAtDCI/issues"
+  },
+  "homepage": "https://github.com/FbW-E01/be-weathercli-KaiAtDCI#readme"
+}
